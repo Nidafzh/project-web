@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to bottom, rgb(94, 69, 207), rgb(102, 134, 202), rgba(11, 129, 207, 0.788)) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    display: flex;
+    list-style: 1.6;
+    min-height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-section{
+    background-color: cadetblue;
+    width: 100%;
+    max-width: 850px;
+    padding: 32px ;
+    border-radius: 12px;
+    border: 1px rgb(162, 224, 226);
+    box-shadow: 0 10px 25px coral;
+}
+header {
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(69, 143, 212);
+}
+    
+
+.bio {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    width: 250px;
+}
+.form-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.form-col {
+    flex: 1;
+    min-width: 280px;
+}
+.form-group {
+    background-color: cornflowerblue;
+    background-size: medium;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    width: 250px;
+    margin: 0%;
+    gap: 0px;
+}
+footer {
+    background-color: rgb(161, 221, 255);
+    display: flex;
+    justify-content: center;
+    
+}

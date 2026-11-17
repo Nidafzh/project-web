@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="bio.css">"
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#">beranda</a>
+            <a href="#">profil</a>
+            <a href="#" class="active">bio</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="form-section">
+            <h2>BIODATA</h2>
+            <form action="proses.php" method="post" class="custom-form">
+                <div class="form-row">
+                    <!--kolom kiri-->
+                    <div class="col">
+                    <div class="form-group">
+                <div class="form-group">
+                    <label for="nama">nama lengkap: </label><br>
+                    <input type="text" id="nama" name="nama" placeholder="nama_lengkap" required> <br> <br>
+                </div>
+                <div class="form-group">                
+                    <label for="email">Email:</label>                
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required />              
+                </div>
+                <div class="form-group">
+                    <label for="pw">password: </label><br>
+                    <input type="password" id="pw" name="password" placeholder="password" required> <br> <br>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal">tanggal lahir: </label><br>
+                    <input type="date" id="tanggal" name="tanggal" placeholder="tanggal_lahir" required> <br> <br>
+                </div>
+                <div class="form-group">
+                    <label for="telp">no telp: </label><br>
+                    <input type="tel" id="telp" name="no_telp" placeholder="no_telp" required> <br> <br>
+                </div>
+            </div>
+            </div>
+            <!--kolom kanan-->
+                <div class="col">
+                    <div class="form-group">
+                <div class="radio-group">
+                    <p>Jenis kelamin</p>
+                    <label><input type="radio" name="Jenis_kelamin" value="P">perempuan</label><br>
+                    <label><input type="radio" name="Jenis_kelamin" value="l">Laki-laki</label><br><br>
+                </div>
+                </div>
+                <div class="form-group"></div>
+                <label for="jurusan">jurusan</label><br>
+                <select name="jurusan" id="jurusan"><br>
+                    <option value="">--pilih jurusan--</option>
+                    <option value="pplg">PPLG</option>
+                    <option value="DKV">DKV</option>
+                    <option value="ANM">ANM</option>
+                    <option value="AKT">AKT</option>
+                </select><br>
+                </div>
+                <div class="textarea-group">
+                <label for="Alamat">Alamat: </label><br>
+                <textarea name="Alamat" id="Alamat" rows="5" placeholder="Alamat lengkap" required></textarea>
+                <br> <br>
+                </div>
+                <div class="checkbox-group">
+                    <p>Hobi</p>
+                    <label><input type="checkbox" name="hobi" value="Belajar">Belajar</label>
+                    <label><input type="checkbox" name="hobi" value="Bermain">Bermain</label>
+                    <label><input type="checkbox" name="hobi" value="Musikk">Musikk</label>
+                    <label><input type="checkbox" name="hobi" value="workout">workout</label>
+                    <label><input type="checkbox" name="hobi" value="Menulis">menulis</label>
+                    <label><input type="checkbox" name="hobi" value="coding">Ngoding</label><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-group">
+                <div class="btn-group">
+                    <button type="submit">Kirim</button>
+</div>
+                    <div class="btn-group">
+                    <button type="reset">reset</button>
+                </div>
+            </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        &copy;nida xi pplg 1| Bn
+    </footer>
+</body>
+
+</html>
